@@ -1,0 +1,90 @@
+body{
+    margin:0;
+}
+.header{
+    display:flex;
+    gap:20px;
+    justify-content: space-between;
+    margin:20px;
+    border: 2px solid rgb(173, 203, 229);
+}
+.logo{
+    display:flex;
+    gap:10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 5px;
+    margin-left:20px;
+}
+.menu{
+    margin-right:20px;
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+    height: 20px;
+    list-style-type: none;
+}
+li{
+    border-radius: 2px;
+    transition: transform o.5s background-color o.5s;
+}
+li:hover{
+    transform: scale(1.1);
+    background-color: aqua;
+    border : 2px solid black;
+    cursor: pointer;
+}
+.poster{
+    background-image: url(logo.jpg);
+    height: 900px;
+    width:90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.services{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:70px;
+    border-radius: 40px;
+    border-color: green;
+    margin-left: 275px;
+    margin-top:250px
+}
+.img1,.img2,.img3,.img4,.img5{
+   transition: transform 0.5s border-color 0.5s; 
+}
+
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover{
+    transform: scale(1.1);
+    border-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    cursor: pointer;
+}
+.flipkart{
+    align-items: center;
+    margin:100px;
+    display:flex;
+    flex-wrap:wrap;
+}
+.search{
+    margin-left: 600px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    height:50px;
+    width:500px;
+}
+.games{
+    align-items: center;
+    margin:300px;
+    display:flex;
+    flex-wrap:wrap;
+
+}

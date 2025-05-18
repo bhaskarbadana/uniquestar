@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+    background-image: url(anime.jpg);
+    background-size: 140%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display:flex;
+    flex-wrap:wrap;
+    }
+    .anime{
+        display: flex;
+        flex-wrap:wrap;
+        padding: 150px;
+        margin-left:700px;
+        height:40px;
+
+    }
+
+</style>
+<body>
+    <marquee direction="left"><h1 style="color:rgb(240, 4, 189);text-align: center;margin-top: 150px;font-size: 150px;"><em> <strong> WELCOME TO ANIME WORLD </strong> </em></h1></marquee>
+    <form action="https://myanimelist.net/anime.php" method="get" target="_blank" class="anime-search">
+    <div class="anime">
+        <input type="text" name="q" placeholder="     Search anime...">
+    </div>
+    </form>
+</body>
+</html>
